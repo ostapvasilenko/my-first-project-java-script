@@ -1,21 +1,23 @@
-let name = 'Ostap'
-let surname = 'Vasylenko'
-let middleName = 'Andriyovych'
+// let name = 'Ostap'
+// let surname = 'Vasylenko'
+// let middleName = 'Andriyovych'
 
-let arraySome = [2, 13, 6, 13, 56];
-const position = arraySome.indexOf('6');
-let someStr = "sdsdsdfsg"
-try{
+// let arraySome = [2, 13, 6, 13, 56];
+// const position = arraySome.indexOf('6');
+// let someStr = "sdsdsdfsg"
 
-}catch{
 
-}
+// try{
 
-if(position >= 0){
-  console.log(`Число ${6} є в масиві`)
-}else{
-  console.log(`Число ${6} не є в масиві`)
-}
+// }catch{
+
+// }
+
+// if(position >= 0){
+//   console.log(`Число ${6} є в масиві`)
+// }else{
+//   console.log(`Число ${6} не є в масиві`)
+// }
 
 // arraySome.splice(2, 1)
 
@@ -36,4 +38,40 @@ if(position >= 0){
 
 // console.log('Data :', personalData);
 
+
+
+
+//Обєкти
+
+
+let personalData = {
+  name: 'Ostap',
+  surName: 'Vasulenko',
+  lastName: 'Andriyovych',
+  address: {
+    city: 'Drogobych',
+    street: 'Ckhilna',
+    number: 82,
+
+    metrics: {
+      water: 14521,
+      has: 154949
+    }
+  },
+  age: [12, 23, 45],
+  isChildren: false
+}
+
+const size = prompt('Введіть ваш розмір одягу :')
+console.log(size)
+
+// personalData.size ='XXL'
+// console.log(personalData)
+
+// let someVar = (personalData.age[1]);
+// console.log(typeof (someVar))
+
+// console.log(personalData.name)
+// console.log(personalData.address.street, personalData.address.number)
+// console.log(personalData.age.length)
 
