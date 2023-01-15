@@ -62,13 +62,19 @@ let personalData = {
   isChildren: false
 }
 
-const size = prompt('Введіть ваш вік :')
-console.log(typeof size)
+const age = Number(prompt('Введіть ваш вік :'))
+console.log(typeof age)
 
-if (size >= 0){
-
-}else{
-  
+if (age >= 0){
+  if(age < 18){
+    console.log('Ви неповнолітній!')
+  } else if(age >= 18 && age < 21){
+    console.log('Ви повнолітній в Україні!')
+  } else{
+    console.log('Ви повнолітній в усьому світі!')
+  }
+} else{
+ console.log('Ви ввели невірні дані!!!')
 }
 
 // personalData.size ='XXL'
