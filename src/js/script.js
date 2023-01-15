@@ -62,8 +62,14 @@ let personalData = {
   isChildren: false
 }
 
-const size = prompt('Введіть ваш розмір одягу :')
-console.log(size)
+const size = prompt('Введіть ваш вік :')
+console.log(typeof size)
+
+if (size >= 0){
+
+}else{
+  
+}
 
 // personalData.size ='XXL'
 // console.log(personalData)
